@@ -1,39 +1,34 @@
-# <Project Name>
-
-> Replace every angle-bracket placeholder below. The hygiene check in CI will
-> fail until you do.
+# BreadBasket 
+>A food dpnation platform
 
 ## Author
 
 | Roll No. | Name | GitHub username |
 |---|---|---|
-| <roll> | <name> | <username> |
+| 24ESKCS006 | Aashvi Goyal | aashvigoyal |
 
 ## About
 
-<Two or three sentences on what this application does.>
+<It connects food donors with NGOs to make surplus edible food available to people in need.
+
 
 ## Tech stack
 
-- Frontend: <e.g. React>
-- Backend: <e.g. Node.js / Express>
-- Database: <e.g. PostgreSQL>
+- Frontend: HTML, CSS, JS
+- Backend: not implemented
+- Database: not implemented
 
 ## Running locally
 
-```bash
-make install
-make run
-```
+open `BreadBasket/BreadBasket/index.html` in web browser.
 
 ## Live URL
 
-<Add once M5 is done. Until then, leave as is.>
+NOt deployed yet!
 
 ## Health endpoint
 
-`GET /health` returns the running commit SHA. See `Makefile` and the milestone
-sheet for why this is required.
+Not implemented!
 
 ## Project Features
 
