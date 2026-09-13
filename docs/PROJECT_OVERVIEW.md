@@ -24,3 +24,4 @@ BreadBasket is a food donation platform designed to connect food donors with NGO
 - Bakery
 - Fruits
 - Packaged FoodCI workflow validation
+CI run 3 validation
