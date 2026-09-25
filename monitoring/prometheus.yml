@@ -4,4 +4,4 @@ global:
 scrape_configs:
   - job_name: "BreadBasket"
     static_configs:
-      - targets: ["web:80"]
+      - targets: ["nginx-exporter:9113"]
