@@ -1,0 +1,50 @@
+{
+  "dashboard": {
+    "title": "BreadBasket Monitoring Dashboard",
+    "panels": [
+      {
+        "title": "Active Nginx Connections",
+        "type": "timeseries",
+        "targets": [
+          {
+            "expr": "nginx_connections_active",
+            "legendFormat": "Active Connections"
+          }
+        ]
+      },
+      {
+        "title": "Accepted Connections",
+        "type": "timeseries",
+        "targets": [
+          {
+            "expr": "nginx_connections_accepted_total",
+            "legendFormat": "Accepted"
+          }
+        ]
+      },
+      {
+        "title": "Handled Connections",
+        "type": "timeseries",
+        "targets": [
+          {
+            "expr": "nginx_connections_handled_total",
+            "legendFormat": "Handled"
+          }
+        ]
+      },
+      {
+        "title": "Total Requests",
+        "type": "timeseries",
+        "targets": [
+          {
+            "expr": "nginx_http_requests_total",
+            "legendFormat": "Requests"
+          }
+        ]
+      }
+    ],
+    "schemaVersion": 39,
+    "version": 1
+  },
+  "overwrite": true
+}
