@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: breadbasket
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: breadbasket
+  template:
+    metadata:
+      labels:
+        app: breadbasket
+    spec:
+      imagePullSecrets:
+        - name: ghcr-secret
+      containers:
+        - name: breadbasket
+          image: ghcr.io/aashvigoyal/breadbasket:latest
+          ports:
+            - containerPort: 80
